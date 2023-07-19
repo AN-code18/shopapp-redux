@@ -1,0 +1,67 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px;
+  padding: 16px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius:12px ;
+  outline-style: solid;
+}
+.main-container:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+}
+.post-title {
+  color: rgb(55 65 81);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 4px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 240px;
+}
+.post-desription {
+  text-align: left;
+  width: 160px;
+  color: rgb(161, 154, 154);
+  font-weight: 400;
+  font-size: 10p;
+  line-height: 1;
+}
+.post-price {
+  color: rgb(22 163 74);
+  font-weight: 600;
+}
+.post-price-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.btn{
+  font-weight: 600;
+  border-radius: 9999px;
+  color: rgb(55 65 81);
+  border-width: 2px;
+  border-color: rgb(55 65 81);
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-transform: uppercase;
+}
+.btn:hover{
+  transform: scale(1.1);
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+  background-color: rgb(55 65 81);
+  color: rgb(255 255 255);
+}
